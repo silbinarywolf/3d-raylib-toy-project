@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            // Taken from: https://www.reddit.com/r/Zig/comments/hqjw0n/how_i_setup_zig_on_windows/?utm_source=share&utm_medium=web2x
+            "name": "Debug exe",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/zig-out/bin/3d-raylib",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/zig-out/bin",
+            "symbolSearchPath": "${workspaceFolder}/zig-out/bin",
+            "environment": [],
+            "externalConsole": false,
+            "logging": {
+                "moduleLoad": false
+            },
+        }
+    ]
+}
