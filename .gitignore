@@ -1,0 +1,15 @@
+zig-cache/
+zig-out/
+
+# ignore .vscode
+.vscode/launch.json
+
+# ignore material files from output (dont use them)
+src/resources/**/*.mtl
+
+# ignore raylib noise
+raylib/examples
+raylib/cmake
+raylib/projects
+raylib/logo
+raylib/.github
